@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(../font/Oswald.ttf);
+}
+
+/* HEADER */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 50px;
+  font-size: 12.72pt;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li a:link {
+  text-decoration: none;
+}
+
+li a {
+  box-shadow: inset 0 0 0 0 #ad8b69;
+  color: black;
+  padding: 5px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #ad8b69;
+  color: #d8f501;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* TOP */
+
+.top-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.top-styling {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* MAIN CONTENT */
+
+.main-container {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  font-family: helvetica;
+}
+
+.left-content {
+  text-align: center;
+  width: 50%;
+}
+
+.left-heading {
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+.left-text {
+  font-size: 28.5pt;
+  font-weight: lighter;
+  margin-top: 5%;
+  width: 95%;
+  line-height: 1.5;
+}
+
+.button-1 {
+  height: 15px;
+  width: 120px;
+  border: solid 3px #d8f501;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.right-content {
+  background-color: #d8f501;
+  width: 50%;
+}
+
+.oswald-font {
+  font-family: Oswald;
+}
+
+/* FOOTER */
+
+.clearflex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 4px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 50px;
+  gap: 20px;
+  font-size: 12.72pt;
+}
+
+/* WORKS */
+
+.works-main-container {
+  display: flex;
+  padding: 50px;
+  flex-flow: column wrap;
+}
+
+.box-1 {
+  width: 100%;
+  height: 400px;
+}
+
+.content-1-styling {
+  width: 100%;
+}
+
+.box-2 {
+  background-color: #b69a8c;
+  width: 100%;
+  height: 400px;
+}
+
+.box-2 > p:hover {
+  color: #d8f501;
+}
+
+.box-3 {
+  background-color: #b9afab;
+  width: 100%;
+  height: 400px;
+}
+
+.box-3 > p:hover {
+  color: #d8f501;
+}
+
+.box-4 {
+  background-color: #9e934b;
+  width: 100%;
+  height: 400px;
+}
+
+.box-4 > p:hover {
+  color: #d8f501;
+}
